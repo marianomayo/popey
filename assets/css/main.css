@@ -410,6 +410,8 @@ h6 {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+
+
 }
 
 /*--------------------------------------------------------------
@@ -1072,7 +1074,7 @@ section,
 }
 
 .services .service-item .description {
-  line-height: 10px;
+  line-height: 15px;
   font-size: 14px;
 }
 
@@ -2863,6 +2865,26 @@ section,
 }
 
 
+@media (max-width: 1025px) {
+  .whastapp-icon-index {
+
+    margin-right: 5%; 
+
+  }
+  
+ 
+}
+
+@media (max-width: 767px) {
+  .whastapp-icon-index {
+
+    margin-right: 10%; 
+
+  }
+  
+ 
+}
+
 .whastapp-icon-index {
   position: fixed;
   bottom: 20px; 
@@ -2874,3 +2896,4 @@ section,
   width: 65px; 
   height: auto;
 }
+
